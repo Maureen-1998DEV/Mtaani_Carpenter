@@ -35,18 +35,22 @@ color: aliceblue;
 .navlist ul li a:hover{
 color: #336600;
 text-transform: 0.5s;
-text-decoration-line: underline;
+text-decoration-line: underline ; 
+
 
 }
 .textone{
     text-align: center;
     font-size: 30px; 
     padding-top: 10%;
-    color: #336600 ;
+    color: white;
 }
 .textone,h1{
     font-size: 250%;
     
+}
+img{
+    filter: brightness(50%);
 }
 .btn{
     float: right;
