@@ -1,0 +1,47 @@
+#message  {
+    padding-bottom: 22%;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+}
+.finish{
+    background:#336600;
+    font-size: .8rem;
+    color: #fff !important;
+}
+::placeholder,#file{
+    font-size: .8rem;
+}
+.follow i{
+    padding: 0 5px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.hoving p:hover{
+    cursor: pointer;
+}
+.tweet:hover{
+    color:rgba(29,161,242,1.00);
+    transition: .3s;
+}
+.fb:hover{
+    color: #385898;
+    transition: .3s;
+}
+.ig:hover{
+    color:#d03b5c;
+    transition: .3s;
+}
+.myButton {
+    padding: 5px 20px;
+    border-radius: 25px;
+    background-color: #336600;
+    color: white;
+    outline: none;
+    border: none;
+}
+h1,label {
+    color: #336600;
+}
+
