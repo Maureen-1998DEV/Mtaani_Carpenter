@@ -13,6 +13,6 @@ function validate() {
     var myEmail = document.getElementById("email");
     var myMessage = document.getElementById("message");
     if(myName.value!="" && myEmail.value!="" && myMessage.value!="" && myMessage.value.length>20 ) {
-        alert("thank you")
+        alert("thank you " +myName.value + " for reaching out to us. we have recieved your message ")
     } 
 }
