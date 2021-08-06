@@ -69,7 +69,7 @@ h1, h2,h5{
     transition: .3s;
 }
 
-.navlist{
+/* .navlist{
     height: 80px !important;
     width: 100%;
     background-color: transparent;
@@ -104,4 +104,24 @@ text-transform: 0.5s;
 text-decoration-line: underline ; 
 
 
+} */
+.navbar{
+    background:  #336600;
+}
+.navbar a{
+    color: #fff !important;
+    position: relative;
+}
+li a::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+li a:hover::after{
+    width: 100%;
 }
