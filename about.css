@@ -68,3 +68,60 @@ h1, h2,h5{
     color:#d03b5c;
     transition: .3s;
 }
+
+/* .navlist{
+    height: 80px !important;
+    width: 100%;
+    background-color: transparent;
+
+    
+}
+.navlist ul {
+    float: right;
+    margin-right: 30px;
+
+}
+
+.navlist ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+
+.navlist ul li a {
+    text-decoration: none;
+color: #336600;
+    font-size: 30px;
+    padding: 6px 13px;
+}
+
+.navlist ul li a.active,
+.navlist ul li a:hover{
+color: #336600;
+text-transform: 0.5s;
+text-decoration-line: underline ; 
+
+
+} */
+.navbar{
+    background:  #336600;
+}
+.navbar a{
+    color: #fff !important;
+    position: relative;
+}
+li a::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+li a:hover::after{
+    width: 100%;
+}
