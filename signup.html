@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./signup.css">
+    <title>Sign up Form</title>
+</head>
+<body>
+    <div class="container">
+     <div class="row"> 
+        <form onsubmit="return false">
+            <h1 class="mb-5">SignUp</h1>
+            <center>
+                <div class="mb-5 col-6">
+                    <input type="text" class="form-control" id="name" placeholder="name" required>
+                  </div>
+            <div class="mb-5 col-6">
+              <input type="email" class="form-control" id="email" placeholder="email" required >
+            </div>
+            <div class="mb-5 col-6">
+              <input type="password" class="form-control" id="passwordSignUp" placeholder="password" required>
+            </div>
+            <div class="mb-5 col-6">
+                <input type="password" class="form-control" id="passwordConfirm" placeholder="confirm password" required>
+                <div class="error mt-2 ">
+                    <p>passwords do not match!</p>
+                </div>
+              </div>
+            
+            <button onclick="signUpValidate()" type="submit">Submit</button>
+            </center>
+          </form>
+          <div class="text-center text-white mt-3">
+            <p>Already  have an account? <a href="login.html">login</a></p>
+          </div>
+     </div>
+     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+     <script src="./signUp.js"></script>
+      
+</body>
